@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual Environment
+../venv/
+
+# React
+node_modules/
+../checkoutkata_fe/package-lock.json
