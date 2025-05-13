@@ -7,5 +7,5 @@ __pycache__/
 ../venv/
 
 # React
-node_modules/
-../checkoutkata_fe/package-lock.json
+checkoutkata_fe/node_modules/
+checkoutkata_fe/package-lock.json

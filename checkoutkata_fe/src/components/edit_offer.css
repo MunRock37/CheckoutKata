@@ -1,0 +1,72 @@
+/* Container */
+.edit-offer-container {
+    width: 50%;
+    /* margin: auto; */
+    margin-top: 60px;
+    height: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: hwb(180 66% 17%);
+    
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Common Button Styles */
+.update-button, .delete-button {
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 48%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Update Button */
+.update-button {
+    /* background-color: #28a745; */
+    background-color: hwb(180 2% 64%);
+    border-radius: 15px;
+}
+
+.update-button:hover {
+    /* background-color: #218838; */
+    background-color: hwb(180 1% 79%);
+}
+
+/* Delete Button */
+.delete-button {
+    background-color: #bb2332;
+    border-radius: 15px;
+}
+
+.delete-button:hover {
+    background-color: #961a27;
+}
+
+.edit-body{
+    /* background-color: rgb(247, 240, 227); */
+    background-color: hwb(180 80% 4%);
+    display: flex;
+    justify-content: center; /* horizontal */
+    /* align-items: center;  */
+    height: 100vh;
+}

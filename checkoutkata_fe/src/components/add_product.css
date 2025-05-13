@@ -1,0 +1,21 @@
+.addproduct-body{
+    background-color: hwb(180 80% 4%);
+    height: 100vh;
+}
+.add-product-container{
+    width: 500px;
+    margin-top:70px ;
+    padding: 30px;
+    height: 50%;
+    background-color: hwb(180 66% 17%);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 100, 0, 0.2);
+    text-align: center;
+}
+.add-product-btn{
+    background-color: hwb(180 2% 64%);
+    border-radius: 15px;
+}
+.add-product-btn:hover{
+    background-color: hwb(180 1% 79%);
+}

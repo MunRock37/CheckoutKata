@@ -1,0 +1,240 @@
+/* Container */
+.container {
+    max-width: 1640px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hwb(180 66% 17%);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.shopping-bag-icon {
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+
+.cart-button:active {
+    transform: scale(0.90);
+}
+
+/* Product Grid */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Exactly 4 columns */
+    gap: 20px;
+    justify-content: center;
+}
+
+
+/* Product Card */
+.product-card {
+    width: 350px;
+    background-color: hwb(180 66% 17%);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    margin: 3px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Product Info */
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.discounts {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.no-offers {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background-color: hwb(180 2% 64%);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100%;
+    margin-top: 10px;
+}
+.delete-product{
+    background-color: rgb(163, 55, 55);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.delete-product:hover{
+    background-color: rgb(128, 58, 58);
+}
+.add-to-cart:hover {
+    background-color: hwb(180 1% 79%);
+}
+.buttons{
+    display: flex;
+}
+.add-to-cart:active {
+    transform: scale(0.90); /* Slight press effect */
+}
+
+.cart-button {
+    background-color: hwb(180 2% 64%);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.cart-button:hover {
+    background-color: hwb(180 1% 79%);
+}
+
+.cart-button:active {
+    transform: scale(0.90);
+}
+
+.cart-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%); /* Ensures perfect top-right placement */
+    background: hwb(180 1% 25%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 1px;
+    border-radius: 50%;
+    min-width: 18px;
+    text-align: center;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.no-offers-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-offer-button {
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background 0.3s ease-in-out;
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.offer-btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.offer-button {
+    
+    display: flex;
+    gap: 5px;
+    background-color: hwb(180 2% 64%);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    width: fit-content;
+    transition: background-color 0.2s ease-in-out, transform 0.1s;
+}
+
+.offer-button:hover {
+    /* background-color: darkgreen;  */
+    background-color: hwb(180 1% 79%);
+
+}
+
+
+.offer-button:active {
+    transform: scale(0.96); /* Slight press effect */
+}
+
+
+.product-body{
+    /* background-color: rgb(247, 240, 227); */
+    background-color: hwb(180 80% 4%);
+    height: 100vh;
+}
+
+.add-product {
+    margin-left: auto;
+    background-color: hwb(180 2% 64%);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+.add-product:hover{
+    background-color: hwb(180 1% 79%);
+}
